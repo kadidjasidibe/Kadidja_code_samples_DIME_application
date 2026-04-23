@@ -17,7 +17,7 @@ I’ve put together this repository to serve as a map for my code samples using 
 
 **3. [03_c_spatial_merge.R](https://github.com/kadidjasidibe/Education-data-analysis-in-developing-countries/blob/main/dhs/00_r_script/03_c_spatial_merge)** Since the RAMP project has a big focus on geospatial data, I wanted to include this sample. It shows how I join shapefiles with household surveys and how I deal with the typical issues that come up during a spatial merge.
 
-**4. [04_analysis_and_viz.R](https://github.com/kadidjasidibe/Education-data-analysis-in-developing-countries/blob/main/dhs/00_r_script/04_analysis)** This is where I conduct the core econometric analysis. A few things I handled here:
+**4. [04_analysis_and_viz.R](https://github.com/kadidjasidibe/Education-data-analysis-in-developing-countries/blob/main/dhs/00_r_script/04_analysis)** This is where I conduct the core econometric analysis. A few things I handled here (and that are relevant to the "RAMP", "Parternship for Economic Inclusion Impact Collaborative", and "RA WBG Reproducible Research Initiative" projects) :
 
 **Survey Weights**: Used the survey package for clusters and strata. I added a fix for "lonely PSUs" so the math doesn't break (in case we have seevral disaggregation levels).
 
